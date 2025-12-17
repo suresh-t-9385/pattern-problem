@@ -10,7 +10,9 @@ public class PatternMain {
 //		obj.dcreasingNo(10);
 		
 //		obj.noChaningPramid(5);
-		obj.noTringular(8);
+//		obj.noTringular(8);
+//		obj.zeroOneTriangle(6);
+		obj.palindromeTriange(6);
 
 	}
 
