@@ -18,7 +18,9 @@ public class PatternMain {
 //		obj.rightHalfPyramid(6);
 //		obj.rightReveHalfPyramid(6);
 //		obj.leftHalfPyramid(6);
-		obj.leftReveHalfPyramid(5);
+//		obj.leftReveHalfPyramid(5);
+//		obj.diamondPyramid(5);
+		obj.butterflyPyramid(5);
 		
 		
 
