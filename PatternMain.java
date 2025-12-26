@@ -6,7 +6,6 @@ public class PatternMain {
 		
 		IncresingOrDrecresingNoPyramid  obj = new  	IncresingOrDrecresingNoPyramid();
 //		obj.IncreasingNo(6);
-//		System.out.println("----------");
 //		obj.dcreasingNo(10);	
 //		obj.noChaningPramid(5);
 //		obj.noTringular(8);
@@ -22,7 +21,8 @@ public class PatternMain {
 //		obj.diamondPyramid(5);
 //		obj.butterflyPyramid(5);
 //		obj.kPattern(6);
-		obj.hollowTriangelP(6);
+//		obj.hollowTriangelP(6);
+		obj. hollowRevP(6);
 		
 		
 

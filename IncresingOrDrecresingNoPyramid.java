@@ -238,4 +238,24 @@ public class IncresingOrDrecresingNoPyramid {
 
 	}
 
+//	 *
+//	* *
+//  *     *	
+//* * * *  *
+	public void hollowRevP(int n) {
+		for (int i = 0; i < n; i++) {
+			for (int s = 0; s < i; s++) {
+				System.out.print(" ");
+			}
+			for (int j = i; j < n; j++) {
+				if (i == 0 || j == i || j == n-1) {
+					System.out.print("* ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+
 }
