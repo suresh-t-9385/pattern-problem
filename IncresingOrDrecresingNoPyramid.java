@@ -257,5 +257,66 @@ public class IncresingOrDrecresingNoPyramid {
 			System.out.println();
 		}
 	}
+	
+	public void hollowDiamondPyramid(int n) {
+		for(int i=0; i<=n; i++) {
+			 for(int s=n; s>=i;  s--) {
+				 System.out.print(" ");
+			 }
+			 for(int j=0 ; j<=i; j++) {
+				 if(j==0   || j==i) {
+				 System.out.print( " *");
+				 }else {
+					 System.out.print("  " );
+				 }
+			 }
+			 System.out.println();
+		}
+		for(int i1=1; i1<=n; i1++ ) {
+			for(int s=0; s<=i1; s++) {
+				System.out.print(" ");
+			}
+			for(int j=n; j>=i1; j--) {
+		     if( j==n || j==i1 ) {
+				System.out.print(" *");
+				}else {
+					System.out.print( "  " );
+				}
+			}
+			System.out.println();
+		}
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

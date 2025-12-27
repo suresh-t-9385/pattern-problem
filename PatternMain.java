@@ -22,7 +22,8 @@ public class PatternMain {
 //		obj.butterflyPyramid(5);
 //		obj.kPattern(6);
 //		obj.hollowTriangelP(6);
-		obj. hollowRevP(6);
+//		obj. hollowRevP(6);
+		obj.hollowDiamondPyramid(5);
 		
 		
 
