@@ -285,17 +285,40 @@ public class IncresingOrDrecresingNoPyramid {
 			}
 			System.out.println();
 		}
-		
-		
+	}
+//    * * *
+//      *
+//    * * *
+	public void hollowHourGlass(int n) {
+		for(int i=0; i<=n; i++) {
+			for(int s=0; s<=i;  s++) {
+				System.out.print(" ");
+			}
+			for(int j =n; j>=i; j--) {
+				if( j==n  ||  i==0  || j == i) {
+				System.out.print( " *"  );
+				}
+			else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		} 
+		for(int i=1; i<=n; i++) {
+			for(int s=n; s>=i;  s--) {
+				System.out.print(" ");
+			}
+			for(int j =0; j<=i; j++) {
+				if(n==i || j==0 || j==i) {
+				System.out.print( " *"  );
+				}else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		} 
 		
 	}
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	

@@ -23,7 +23,8 @@ public class PatternMain {
 //		obj.kPattern(6);
 //		obj.hollowTriangelP(6);
 //		obj. hollowRevP(6);
-		obj.hollowDiamondPyramid(5);
+//		obj.hollowDiamondPyramid(5);
+		obj.hollowHourGlass(5);
 		
 		
 
