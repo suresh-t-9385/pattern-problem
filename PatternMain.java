@@ -1,9 +1,7 @@
 package pattern;
 
 public class PatternMain {
-
 	public static void main(String[] args) {
-		
 		IncresingOrDrecresingNoPyramid  obj = new  	IncresingOrDrecresingNoPyramid();
 //		obj.IncreasingNo(6);
 //		obj.dcreasingNo(10);	
@@ -22,11 +20,10 @@ public class PatternMain {
 //		obj.butterflyPyramid(5);
 //		obj.kPattern(6);
 //		obj.hollowTriangelP(6);
-//		obj. hollowRevP(6);
+//		obj.hollowRevP(6);
 //		obj.hollowDiamondPyramid(5);
-		obj.hollowHourGlass(5);
-		
-		
+//		obj.hollowHourGlass(5);
+//		obj.rightPascalTriangle(5);	
 
 	}
 

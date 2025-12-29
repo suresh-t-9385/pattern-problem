@@ -73,9 +73,9 @@ public class IncresingOrDrecresingNoPyramid {
 	}
 
 	public void squareHollow(int n) {
-		for (int i = 0; i <= n; i++) {
-			for (int j = 0; j <= n; j++) {
-				if (i == 0 || j == 0 || i == n || j == n) {
+		for (int i = 0; i <=n; i++) {
+			for (int j = 0; j <=n; j++) {
+				if (i == 0 || j == 0 || i == n || j==n) {
 					System.out.print("*");
 				} else {
 					System.out.print(" ");
@@ -182,7 +182,7 @@ public class IncresingOrDrecresingNoPyramid {
 				if (j > i && j <= 2 * n - i) { // 3 > 2 && 5 <= 6
 					System.out.print(" ");
 				} else {
-					System.out.print(j);
+					System.out.print("*");
 				}
 			}
 			System.out.println();
@@ -190,7 +190,7 @@ public class IncresingOrDrecresingNoPyramid {
 		for (int i = n - 1; i >= 0; i--) {
 			for (int j = 1; j <= 2 * n; j++) {
 
-				if (j > i && j <= 2 * n - i) {
+				if ( j > i && j <= 2 * n - i) {
 					System.out.print(" ");
 				} else {
 					System.out.print("*");
@@ -319,9 +319,25 @@ public class IncresingOrDrecresingNoPyramid {
 		} 
 		
 	}
-	
-	
-	
+//	* 
+//	* * 
+//	* * *
+//	* * 
+//	*
+	public void rightPascalTriangle(int n) {
+		for(int i=1; i<n; i++) {
+			for(int j=0; j<i; j++) {
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+		for(int i=1; i<n; i++) {
+			for(int j = n-1; j>i; j--) {
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+	}
 	
 	
 	
